@@ -2,7 +2,7 @@
   "name": "versalink-htu21d-device",
   "version": "0.8.0",
   "description": "HTU21D humidity and temperature device driver for use in the Agilatech VersaLink system",
-  "main": "htu21d.js",
+  "main": "htu21d-scout.js",
   "directories": {
     "example": "example"
   },
@@ -15,7 +15,8 @@
   },
   "keywords": [
     "sensor",
-    "FIXME add keywords",
+    "Humidity",
+    "Temperature",
     "beaglebone",
     "raspberry pi"
   ],
@@ -27,6 +28,7 @@
   "homepage": "https://github.com/Agilatech/versalink-htu21d-device#readme",
   "dependencies": {
     "versalink-device": "*",
+    "zetta-scout": "*",
     "@agilatech/htu21d": "*"
   }
 }

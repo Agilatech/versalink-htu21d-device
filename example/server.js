@@ -10,7 +10,7 @@
 
 const fs     = require('fs');
 const zetta  = require('zetta');
-const sensor = require('./htu21d-scout');
+const sensor = require('../htu21d-scout');
 const app    = require('./apps/htu21d_app');
 
 const serverPort  = 1107;  // IIOT port definied and claimed by Agilatech
