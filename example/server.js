@@ -42,7 +42,7 @@ zetta(options)
     .name('testServer')
 
     // NOTE: the options for the sensor are overridden here
-    .use(sensor, {  "bus":"/dev/i2c-1", "streamPeriod":5000, "devicePoll":2000, "deltaPercent":1 })
+    .use(sensor, { "streamPeriod":5000, "devicePoll":2000, "deltaPercent":1 })
 
     .use(app)
     .listen(serverPort, function() {
