@@ -1,6 +1,6 @@
 {
   "name": "@agilatech/versalink-htu21d-device",
-  "version": "0.10.1",
+  "version": "1.0.0",
   "description": "HTU21D humidity and temperature device driver for use in the Agilatech VersaLink system",
   "main": "htu21d-scout.js",
   "repository": {
